@@ -1,9 +1,7 @@
 var file = require("../lib/playground.js");
-require("mocha");
-require("chai");
 var should = require("should");
 var assert = require("assert");
-var ke = new file.kitchen.equipment();
+var ke = new file.Equipment();
 
 describe('Kitchen', function () {
   it('should add', function () {
@@ -17,7 +15,7 @@ describe('Kitchen', function () {
   })
 
   it('should get string', function () {
-    should.equal(ke.toString(), "");
+    should.equal(ke.Stringify(), "oven stove ");
   })
 
   it('should remove', function () {
