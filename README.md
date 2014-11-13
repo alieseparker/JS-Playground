@@ -10,6 +10,8 @@ tot_Cost() - returns the total cost of all objects
 to_String() - returns a string of all data with names, and price
 remove_Equipment('Name') - remove the specified item
 
+
+To run tests simply run mocha
 ## Contributions:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
 http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript
